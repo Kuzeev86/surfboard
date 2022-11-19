@@ -1,0 +1,26 @@
+.btn {
+  font-size: 19px;
+  font-weight: bold;
+  padding: 18px 36px;
+  text-transform: uppercase;
+  border-radius: 100px;
+  line-height: 1;
+  text-decoration: none;
+  border: none;
+}
+.btn--theme--transparent {
+  background: transparent;
+  color: black;
+}
+.btn--theme--transparent:hover {
+  color: black;
+  background: #fff;
+}
+.btn--theme--white {
+  background: yellow;
+  color: black;
+}
+.btn--theme--white:hover {
+  color: black;
+  background: #fff;
+}

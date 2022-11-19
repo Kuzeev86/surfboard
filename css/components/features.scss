@@ -1,0 +1,22 @@
+.features {
+    display: flex;
+    justify-content: left;
+    padding: 20px 20px 20px 20px;
+}
+
+.features__item {
+    margin-right: 70px;
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.feature__icon {
+    margin-right: 10px;
+ }
+ 
+ .feature__text {
+     font-size: 16px;
+     max-width: 80px;
+ }

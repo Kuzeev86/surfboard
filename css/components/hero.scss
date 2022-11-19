@@ -1,0 +1,39 @@
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.25) ), url(../img/arnaud-mesure.jpg) no-repeat;
+    background-size: 100vw 100vh;
+    background-color: $blue;
+    width: 100vw;
+    height: 100vh;
+    min-height: 640px;
+    color: #fff;
+  
+    
+    
+}
+
+.hero__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding: 20px 0 50px 20px;
+}
+
+.hero__title-section {
+    width: 35%;
+}
+
+.hero__main-title {
+    font-size: 45px;
+    line-height: 1.1;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+   
+}
+
+.hero__title-desc {
+    font-size: 20px;
+    margin-bottom: 30px;
+    
+}

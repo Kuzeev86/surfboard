@@ -1,0 +1,27 @@
+$containerWidth: 940px;
+$baseFontSize: 18px;
+
+//colors
+$blue: #1968B1;
+$darkGreen: #0b4d3c;
+
+//normalize
+@import url("https://necolas.github.io/normalize.css/8.0.1/normalize.css");
+
+
+//setups
+@import url("https: //fonts.googleapis.com/css2?family= Alegreya +Sans:ital,wght@0,300;0,400;0,700;1,400 & display=swap");
+@import "layout";
+
+//components
+@import "./components/hero.scss";
+@import "./components/header.css";
+@import "./components/features.css";
+@import "./components/btn.css";
+@import "./components/section.css";
+@import "./components/benefits.css";
+@import "./components/reviews.css";
+@import "./components/interactive-avatar.css";
+@import "./components/order-section.css";
+@import "./components/form.css";
+@import "./components/fixed-menu.css";
