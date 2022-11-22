@@ -59,6 +59,12 @@
 }
 
 .radio__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   color: #fff;
 }
 
@@ -76,7 +82,7 @@
   border-radius: 0%;
 }
 .radio--checkbox .radio__visible::before {
-  background: url(../../img/icons/check\ mark.svg) center center no-repeat;
+  background: url(../../../img/icons/check\ mark.svg) center center no-repeat;
 }
 
 .radio__elm {

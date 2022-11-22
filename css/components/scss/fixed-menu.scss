@@ -1,8 +1,12 @@
 .fixed-menu {
     position: fixed;
-    top: 20%;
+    top: 30%;
     right: 0;
     color: black;
+    li {
+        list-style: inside;
+    }
+        
 }
 
 .fixed-menu__item {

@@ -10,7 +10,7 @@
 }
 .btn--theme--transparent {
   background: transparent;
-  color: black;
+  color: #fff;
 }
 .btn--theme--transparent:hover {
   color: black;
@@ -18,7 +18,7 @@
 }
 .btn--theme--white {
   background: yellow;
-  color: black;
+  color: darkgreen;
 }
 .btn--theme--white:hover {
   color: black;

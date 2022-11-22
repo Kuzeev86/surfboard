@@ -1,4 +1,4 @@
-$containerWidth: 940px;
+$containerWidth: auto;
 $baseFontSize: 18px;
 
 //colors
@@ -14,14 +14,15 @@ $darkGreen: #0b4d3c;
 @import "layout";
 
 //components
-@import "./components/hero.scss";
-@import "./components/header.css";
-@import "./components/features.css";
-@import "./components/btn.css";
-@import "./components/section.css";
-@import "./components/benefits.css";
-@import "./components/reviews.css";
-@import "./components/interactive-avatar.css";
-@import "./components/order-section.css";
-@import "./components/form.css";
-@import "./components/fixed-menu.css";
+@import "./components/css/hero.css";
+@import "./components/css/header.css";
+@import "./components/css/features.css";
+@import "./components/css/btn.css";
+@import "./components/css/section.css";
+@import "./components/css/benefits.css";
+@import "./components/css/reviews.css";
+@import "./components/css/interactive-avatar.css";
+@import "./components/css/order-section.css";
+@import "./components/css/form.css";
+@import "./components/css/fixed-menu.css";
+@import "./components/css/social__list.css";

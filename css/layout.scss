@@ -1,6 +1,7 @@
 html,
 body {
-    height: 100%;
+    height: 100vh;
+    width: 100vw;
 }
 
 body {
@@ -16,14 +17,14 @@ body {
 .wrapper {
     position: relative;
     width: 100%;
-    min-width: $containerWidth + 20px;
+    min-width: $containerWidth;
     min-height: 100%;
     overflow: hidden;
 }
 
 .container {
     width: $containerWidth;
-    margin: 0 auto;
+    margin: 0 5%;
     position: relative;
 }
 
