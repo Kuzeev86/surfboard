@@ -1,9 +1,13 @@
-$containerWidth: auto;
+$containerWidth: 1100px;
 $baseFontSize: 18px;
 
 //colors
 $blue: #1968B1;
 $darkGreen: #0b4d3c;
+
+// z-indexes
+
+$z-fixed-menu: 100;
 
 //normalize
 @import url("https://necolas.github.io/normalize.css/8.0.1/normalize.css");
@@ -25,4 +29,4 @@ $darkGreen: #0b4d3c;
 @import "./components/css/order-section.css";
 @import "./components/css/form.css";
 @import "./components/css/fixed-menu.css";
-@import "./components/css/social__list.css";
+@import "./components/css/footer.css";

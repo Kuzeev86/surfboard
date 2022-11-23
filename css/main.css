@@ -11,7 +11,7 @@
 @import "./components/css/order-section.css";
 @import "./components/css/form.css";
 @import "./components/css/fixed-menu.css";
-@import "./components/css/social__list.css";
+@import "./components/css/footer.css";
 html,
 body {
   height: 100vh;
@@ -31,14 +31,14 @@ body {
 .wrapper {
   position: relative;
   width: 100%;
-  min-width: auto;
+  min-width: 1100px;
   min-height: 100%;
   overflow: hidden;
 }
 
 .container {
-  width: auto;
-  margin: 0 5%;
+  width: 1100px;
+  margin: 0 auto;
   position: relative;
 }
 

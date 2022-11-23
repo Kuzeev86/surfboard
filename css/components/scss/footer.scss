@@ -1,0 +1,33 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 1%;
+}
+
+.socials__list {
+    display: flex;    
+    align-items: center;
+    padding-top: 15%;
+}
+
+.phone-number__icon--footer {
+    margin-right: 3%;
+}
+
+.social__icon {
+width: 30px;
+height: 30px;
+cursor: pointer;
+fill: #b3b3b3;
+margin-right: 10px;
+
+&:hover {
+    fill: black;
+}
+}

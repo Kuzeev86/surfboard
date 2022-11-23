@@ -1,23 +1,22 @@
 .fixed-menu {
     position: fixed;
     top: 30%;
-    right: 0;
+    right: 1%;
+    z-index: z-idex-menu;
     color: black;
-    li {
-        list-style: inside;
-    }
-        
+    
 }
 
 .fixed-menu__item {
-    margin-bottom: 5px;
+    margin-bottom: 7px;
 
     &--active {
         .fixed-menu__link{
-            border-color: #fff;
+            border-color: black;
         }
     }
 }
+
 
 .fixed-menu__link {
     width: 16px;
@@ -33,6 +32,10 @@
         width: 6px;
         height: 6px;
         border-radius: 50%;
-        background: #fff;
+        background: black;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 }
