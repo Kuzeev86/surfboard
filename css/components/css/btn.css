@@ -19,6 +19,7 @@
 .btn--theme--white {
   background: yellow;
   color: darkgreen;
+  cursor: pointer;
 }
 .btn--theme--white:hover {
   color: black;
