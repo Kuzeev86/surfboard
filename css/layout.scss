@@ -1,11 +1,21 @@
-html,
-body {
-    height: 100vh;
-    width: 100vw;
+html {
+    font-size: $baseFontSize;
+
+    @include tablets {
+        font-size: $baseFontSize - 2px;
+    }
+
+    @include phones {
+        font-size: $baseFontSize - 4px;
+    }
 }
 
+html,
 body {
-    font-size: $baseFontSize;
+    height: 100%;
+    }
+
+body {
     font-family: "Alegreya Sans", Arial, Helvetica, sans-serif;
     line-height: 1.42;
     -webkit-font-smoothing: antialiased;
@@ -17,15 +27,19 @@ body {
 .wrapper {
     position: relative;
     width: 100%;
-    min-width: $containerWidth;
     min-height: 100%;
     overflow: hidden;
 }
 
 .container {
-    width: $containerWidth;
+    width: 95%;
+    max-width: $containerWidth;
     margin: 0 auto;
     position: relative;
+
+    @include tablets {
+        width: 100%;
+    }
    
 }
 
@@ -41,7 +55,7 @@ h6 {
 }
 
 table {
-    border-collapse: collapse;
+    // border-collapse: collapse;
 }
 
 ul {
@@ -74,3 +88,5 @@ img {
     display: block;
     max-width: 100%;
 }
+
+

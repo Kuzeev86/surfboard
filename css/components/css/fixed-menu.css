@@ -7,25 +7,25 @@
 }
 
 .fixed-menu__item {
-  margin-bottom: 7px;
+  margin-bottom: 0.4375rem;
 }
 .fixed-menu__item--active .fixed-menu__link {
   border-color: black;
 }
 
 .fixed-menu__link {
-  width: 16px;
-  height: 16px;
+  width: 1rem;
+  height: 1rem;
   border-radius: 50%;
-  border: 1px solid transparent;
+  border: 0.0625rem solid transparent;
   display: block;
   position: relative;
 }
 .fixed-menu__link:before {
   content: "";
   display: block;
-  width: 6px;
-  height: 6px;
+  width: 0.375rem;
+  height: 0.375rem;
   border-radius: 50%;
   background: black;
   position: absolute;

@@ -1,12 +1,18 @@
 $containerWidth: 1100px;
-$baseFontSize: 18px;
+$baseFontSize: 16px;
+
+// breakpoints
+$tablets: 768px;
+$phones: 480px;
+
+@import "media768";
+@import "media480";
 
 //colors
 $blue: #1968B1;
 $darkGreen: #0b4d3c;
 
 // z-indexes
-
 $z-fixed-menu: 100;
 
 //normalize
@@ -30,3 +36,7 @@ $z-fixed-menu: 100;
 @import "./components/css/form.css";
 @import "./components/css/fixed-menu.css";
 @import "./components/css/footer.css";
+@import "./components/css/hamburger.css"
+
+
+

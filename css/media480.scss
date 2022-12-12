@@ -1,0 +1,100 @@
+@mixin phones {
+    @media screen and (max-width: $phones) {   
+        @content;
+    }
+}
+
+.benefits {
+    @include phones {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.benefit {
+    @include phones {
+        display: flex;
+        text-align: left;
+        margin-left: 5%;
+    }
+}
+
+
+.benefits__item {
+       
+    @include phones {
+        padding: 0;
+        margin-bottom: .9375rem;
+    }
+      
+}
+
+.benefit__title {
+    @include phones {
+            margin: 0;
+    }
+}
+
+.benefit__desc {
+    @include phones {
+        padding: 0;
+    }
+}
+
+.benefit__text {
+    @include phones {
+        margin: 0 10% 0 5%;
+    }
+}
+
+.hedline__subtitle {
+    @include phones {
+        padding: 0;
+    }
+}
+
+.form {
+    @include phones{
+      padding: 0 7%;
+    }
+}
+
+.form__controls {
+    @include phones{
+        justify-content: center;
+      }
+}
+
+.footer{ 
+    @include phones{
+        flex-direction: column;
+      }
+}
+
+.contacts {
+    @include phones{
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+}
+
+.phonee-number__text {
+    @include phones {
+        white-space: nowrap;
+    }
+}
+
+.radio {
+    @include phones {
+        margin-bottom: 5%;
+    }
+}
+
+.socials__list {
+    @include phones { 
+        padding-top: 2%;
+        justify-content: center;
+    }
+}

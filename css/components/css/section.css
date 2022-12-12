@@ -1,6 +1,6 @@
 .section {
   height: 100vh;
-  min-height: 640px;
+  min-height: 40rem;
   width: 100vw;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -15,9 +15,9 @@
 }
 
 .section__title {
-  font-size: 45Px;
+  font-size: 2.8125rem;
   font-weight: bold;
-  margin-bottom: 60px;
+  margin-bottom: 3.75rem;
   text-align: center;
   text-transform: uppercase;
   color: black;
@@ -28,10 +28,10 @@
 }
 
 .headline__title {
-  margin-bottom: 50PX;
+  margin-bottom: 3.125rem;
 }
 
 .hedline__subtitle {
   padding: 1% 22% 3% 22%;
-  margin: 25px;
+  margin: 1.5625rem;
 }

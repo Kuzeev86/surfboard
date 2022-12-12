@@ -1,9 +1,9 @@
 .btn {
   font-size: 19px;
   font-weight: bold;
-  padding: 18px 36px;
+  padding: 1.125rem 2.25rem;
   text-transform: uppercase;
-  border-radius: 100px;
+  border-radius: 6.25rem;
   line-height: 1;
   text-decoration: none;
   border: none;

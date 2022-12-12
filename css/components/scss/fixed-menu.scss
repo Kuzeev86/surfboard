@@ -8,7 +8,7 @@
 }
 
 .fixed-menu__item {
-    margin-bottom: 7px;
+    margin-bottom: .4375rem;
 
     &--active {
         .fixed-menu__link{
@@ -19,18 +19,18 @@
 
 
 .fixed-menu__link {
-    width: 16px;
-    height: 16px;
+    width: 1rem;
+    height: 1rem;
     border-radius: 50%;
-    border: 1px solid transparent;
+    border: .0625rem solid transparent;
     display: block;
     position: relative;
 
     &:before {
         content: "";
         display: block;
-        width: 6px;
-        height: 6px;
+        width: .375rem;
+        height: .375rem;
         border-radius: 50%;
         background: black;
         position: absolute;
@@ -39,3 +39,4 @@
         transform: translate(-50%, -50%);
     }
 }
+

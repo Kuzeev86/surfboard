@@ -10,20 +10,30 @@
           justify-content: space-between;
 }
 
+.menu {
+  margin: 0 30px;
+}
+
 .menu_list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 
 .menu__item {
-  margin-right: 45px;
+  margin-right: 1.8125rem;
+  margin-top: 10px;
 }
 .menu__item:last-child {
-  margin-right: 0px;
+  margin-right: 0rem;
 }
 
 .phone-number {
@@ -34,13 +44,16 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 0 20px 0 0;
+  padding: 0 1.25rem 0 0;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
 }
 
 .phone-number__icon {
-  margin-right: 15px;
+  margin-right: 0.9375rem;
 }
 
 .menu__link {
   text-decoration: none;
+  white-space: nowrap;
 }

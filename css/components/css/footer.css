@@ -36,11 +36,11 @@
 }
 
 .social__icon {
-  width: 30px;
-  height: 30px;
+  width: 1.875rem;
+  height: 1.875rem;
   cursor: pointer;
   fill: #b3b3b3;
-  margin-right: 10px;
+  margin-right: 0.625rem;
 }
 .social__icon:hover {
   fill: black;

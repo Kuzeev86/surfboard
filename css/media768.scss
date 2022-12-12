@@ -1,0 +1,109 @@
+@mixin tablets {
+    @media screen and (max-width: $tablets) {   
+        @content;
+    }
+}
+
+.menu {
+    @include tablets {
+        display: none;
+    }
+}
+
+.header__phone-number {
+    @include tablets {
+        display: none;
+    }
+}
+
+.hero__icons-section {
+    @include tablets{ 
+        display: none
+    }
+}
+
+.hero__title-section {
+        
+    @include tablets {
+        width: 100%;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+.hero__main-title {
+    @include tablets { 
+        padding: 0 5%;
+    }
+}
+
+.header {
+    @include tablets{
+        
+        background-color: #1968B1;
+        
+    }
+}
+
+.hero {
+    @include tablets {
+        background: linear-gradient(rgba(0, 0, 0, 0.25) ), url(../img/arnaud-mesureur768.png);
+    }
+}
+
+.logo {
+    @include tablets {
+        margin-left: 3%;
+    }
+}
+
+.hamburger {
+   
+    @include tablets {
+        display: inline-flex;
+    }
+ 
+}
+
+.reviews__display {
+
+    @include tablets {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+}
+
+.reviews__avatar {
+
+    @include tablets {
+        width: 8.125rem;
+        height: 8.125rem;
+    }
+}
+
+.form {
+
+    @include tablets{
+        flex-direction: column;
+        padding: 0 20%;
+    }
+}
+
+.form__col {
+    @include tablets {
+        margin-right: 0;
+    }
+}
+
+.form__btns {
+    @include tablets {
+        display: flex;
+        justify-content: center;
+    }
+    
+}

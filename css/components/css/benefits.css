@@ -34,6 +34,9 @@
 }
 
 .benefit__title {
+  font-size: 1.5625rem;
+  font-weight: 700;
+  color: black;
   margin: 5%;
 }
 
@@ -43,8 +46,8 @@
 
 .benefit__img-wrapper {
   display: inline-block;
-  width: 126px;
-  height: 126px;
+  width: 7.875rem;
+  height: 7.875rem;
   position: relative;
   background: #f2f5f4;
   border-radius: 50%;

@@ -5,21 +5,21 @@
   -webkit-box-pack: left;
       -ms-flex-pack: left;
           justify-content: left;
-  padding: 20px 20px 20px 20px;
+  padding: 1.25rem;
 }
 
 .features__item {
-  margin-right: 70px;
+  margin-right: 4.375rem;
 }
 .features__item:last-child {
   margin-right: 0;
 }
 
 .feature__icon {
-  margin-right: 10px;
+  margin-right: 0.625rem;
 }
 
 .feature__text {
-  font-size: 16px;
-  max-width: 80px;
+  font-size: 1rem;
+  max-width: 5rem;
 }
